@@ -1,6 +1,6 @@
 # 2.1 Layered Technology
 ## a.  process, methods, and tools
-![[Drawing 2023-10-09 22.04.32.excalidraw.png]]
+![layer img](../Excalidraw/layer_img.png)
 - the foundation for SE is the *process layer*. **SE** process is the glue that hold the technology layer together and enable rational and timely develop of computer software
 - SE method provides the technical how-to for building software
 - SE tools provide automated or semi-automated support for the process and the methods
