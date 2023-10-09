@@ -86,3 +86,57 @@ example
 3. *Monospace*  fonts have all the letters have the same fixed width. They create a mechanical look.
 4. *Cursive* fonts imitate human handwriting.
 5. *Fantasy* fonts are decorative/playful fonts.
+
+	09/10/2023
+
+ក្នុង CSS ចាត់ធាតុរបស់​ html​ ទាំងអស់ជាប្រអប់ មានឌូចជាប្រអប់ខ្លឺមសារ(content) ប្រអប់គម្លាតទ្រនាប់(padding) ប្រអប់ស៊ុម(border) និង​ប្រអប់រឺម(margin)។
+
+- ប្រអប់ខ្លឹមសារ
+	width ទទឹង​ និង height កម្ពស់
+```html
+<p style="background-color: gray; width: 180px; height: 48px">paragraph</p>
+```
+
+- ប្រអប់គម្លាត់ទ្រនាប់
+	padding-top គម្លាតទ្រនាប់ខាងលើ
+	padding-right គម្លាតទ្រនាប់ខាងស្តាំ
+	padding-bottom គម្លាតទ្រនាប់ខាងក្រោម
+	padding-left គម្លាតទ្រនាប់ខាងឆ្វេង
+
+*ទម្រងកាត់*
+	padding លើ ស្តាំ ក្រោម​ ឆ្វេង
+	padding លើ ឆ្វេងស្តាំ ក្រោម
+	padding លើក្រោម ឆ្វេងស្តាំ
+	padding លើក្រោមឆ្វេងស្តាំ
+```html
+<span style="border: 1px solid black;">....</span>
+<span style="border: 1px solid black; padding-top: 9px">....</span>
+<span style="border: 1px solid black; padding-right: 9px">....</span>
+<span style="border: 1px solid black; padding-bottom: 9px">....</span>
+<span style="border: 1px solid black; padding-left: 9px">....</span>
+<span style="border: 1px solid black;​​ padding: 9px">....</span>
+```
+
+- ប្រអប់ស៊ុម
+	- border-style ក្បាច់ស៊ុម dotted dashed solid double inset outset groove ridge none hide
+	- border-width កម្រាស់ស៊ុម
+	- border-color ព័ណស៊ុម
+*ទម្រង់កាត់*
+- border: កម្រាស់ ក្បាច់ ព័ណ
+- border-top: កម្រាស់ ក្បាច់ ព័ណ
+- border-right: កម្រាស់ ក្បាច់ ព័ណ
+- border-bottom: កម្រាស់ ក្បាច់ ព័ណ
+- border-left: កម្រាស់ ក្បាច់ ព័ណ
+```html
+<p style="border: 5px dotted black;">.....</p>
+<p style="border: 5px dashed black;">.....</p>
+<p style="border: 5px solid black;">.....</p>
+<p style="border: 5px double black;">.....</p>
+<p style="border: 16px inset black;">.....</p>
+<p style="border: 16px outset black;">.....</p>
+<p style="border: 16px groove black;">.....</p>
+<p style="border: 16px ridge black;">.....</p>
+<p style="border: none;">.....</p>
+<p style="border: hide;">.....</p>
+```
+
