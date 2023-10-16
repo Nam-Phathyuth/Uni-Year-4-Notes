@@ -91,21 +91,21 @@ example
 
 
 09-10-2023
-## Padding and Border
+## Padding and Border, Margin
 
 ក្នុង CSS ចាត់ធាតុរបស់​ html​ ទាំងអស់ជាប្រអប់ មានឌូចជាប្រអប់ខ្លឺមសារ(content) ប្រអប់គម្លាតទ្រនាប់(padding) ប្រអប់ស៊ុម(border) និង​ប្រអប់រឺម(margin)។
 
-- ប្រអប់ខ្លឹមសារ
+- ប្រអប់ខ្លឹមសារ(content)
 	- width ទទឹង​ និង height កម្ពស់
 ```html
 <p style="background-color: gray; width: 180px; height: 48px">paragraph</p>
 ```
 
-- ប្រអប់គម្លាត់ទ្រនាប់
+- ប្រអប់គម្លាត់ទ្រនាប់(padding)
 	- padding-top គម្លាតទ្រនាប់ខាងលើ
 	- padding-right គម្លាតទ្រនាប់ខាងស្តាំ
 	- padding-bottom គម្លាតទ្រនាប់ខាងក្រោម
-	- padding-left គម្លាតទ្រនាប់ខាងឆ្វេង
+	- padding-left គម្លាតទ្រនាប់ខាងឆ្វេង  
 
 *ទម្រងកាត់*
 - padding លើ ស្តាំ ក្រោម​ ឆ្វេង
@@ -121,7 +121,7 @@ example
 <span style="border: 1px solid black;​​ padding: 9px">....</span>
 ```
 
-- ប្រអប់ស៊ុម
+- ប្រអប់ស៊ុម(border)
 	- border-style ក្បាច់ស៊ុម dotted dashed solid double inset outset groove ridge none hide
 	- border-width កម្រាស់ស៊ុម
 	- border-color ព័ណស៊ុម
@@ -144,3 +144,27 @@ example
 <p style="border: hide;">.....</p>
 ```
 
+16-10-2013
+- ប្រអប់រឹម(margin)
+	- margin-top រឹមខាងលើ
+	- margin-right រឹមខាងស្តាំ
+	- margin-bottom រឹមខាងក្រោម
+	- margin-left រឹមខាងឆ្វេង​​    
+ទម្រង់កាត់
+- margin: លើ ស្តាំ ក្រោម​ ឆ្វេង
+- margin: លើ ឆ្វេងស្តាំ ក្រោម
+- margin: លើក្រោម ឆ្វេងស្តាំ
+- margin: លើក្រោមឆ្វេងស្តាំ   
+```html
+<div class="b" style="margin-bottom: 16px;"></div>
+<div class="b" style="margin-bottom: 16px;"></div>
+<div class="b" style="margin-bottom: 16px;"></div>
+```
+ 
+- *Block element*[^block-margin][^margin] ជាធាតុបង្ហាញពីលើចុះក្រោមហើយមានទទឹងប៉ុនផ្ទៃទំនេរ។ex: h1, h2, ...h6, p, ul, ol, dl,​ table។ល។
+- *Inline element*[^inline-margin][^margin] ជាធាតុបង្ហាញពីឆ្វេងទៅស្តាំហើយមានទទឹងប៉ុនខ្លឹមសារ(ព័តមាន)។ល។ex: a, span, sub, sup, ។ល។ *we cannot set height and width to inline element*
+*display: inline-block* ប្រែ inline element ជា inline-block គឺកូនកាត់ inline and block។ កាត់ inline ត្រង់បង្ហាញពីឆ្វេងទៅស្តាំ កាត់ block ត្រង់ប្រើ boxes ទាំងបួនបានដូច block element។
+
+[^block-margin]: when using margin in two block elements that touch each other it will not sum up both margin instead it will take the biggest margin.
+[^inline-margin]: when using margin in inline elements you cannot use *width, height and margin-top, margin-bottom*. To solve height problem we can use *line-height*. To solve all this problem we can use *display: inline-block*.
+[^margin]: inline and block element have margin from 3px-5px. To eliminate this we can use *margin-left and margin-right from -3px to -5px*.
