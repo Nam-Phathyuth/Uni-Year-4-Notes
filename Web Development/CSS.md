@@ -165,6 +165,20 @@ example
 - *Inline element*[^inline-margin][^margin] ជាធាតុបង្ហាញពីឆ្វេងទៅស្តាំហើយមានទទឹងប៉ុនខ្លឹមសារ(ព័តមាន)។ល។ex: a, span, sub, sup, ។ល។ *we cannot set height and width to inline element*
 *display: inline-block* ប្រែ inline element ជា inline-block គឺកូនកាត់ inline and block។ កាត់ inline ត្រង់បង្ហាញពីឆ្វេងទៅស្តាំ កាត់ block ត្រង់ប្រើ boxes ទាំងបួនបានដូច block element។
 
+20-10-2023
+To link a .css file to html:
+```html
+<link rel="stylesheet" href="path_to_css" type="text/css">
+```
+
+- *child combinator or child selector* ជ្រើសយកកូនធាតុដោយប្រើសញ្ញា >។​​ របៀបសរសេរ មេធាតុ > កូនធាតុ
+- *descendant combinator or descendant selector* ជ្រើសយកធាតុជំនាន់ក្រោយដោយប្រើសញ្ញា >។ របៀបសរសេរ មេធាតុ > កូនធាតុ។
+- *pseudo-class selector* ជា selector ដែលផ្តើមដោយសញ្ញា : មាន
+	- *:link*
+	- *:visited*
+	- *:hover*
+
+
 [^block-margin]: when using margin in two block elements that touch each other it will not sum up both margin instead it will take the biggest margin.
 [^inline-margin]: when using margin in inline elements you cannot use *width, height and margin-top, margin-bottom*. To solve height problem we can use *line-height*. To solve all this problem we can use *display: inline-block*.
 [^margin]: inline and block element have margin from 3px-5px. To eliminate this we can use *margin-left and margin-right from -3px to -5px*.
