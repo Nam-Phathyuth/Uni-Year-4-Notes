@@ -177,8 +177,14 @@ To link a .css file to html:
 	- *:link*
 	- *:visited*
 	- *:hover*
-
-
+```css
+div > a:link {
+.....
+}
+div > a:hover{
+.....
+}
+```
 [^block-margin]: when using margin in two block elements that touch each other it will not sum up both margin instead it will take the biggest margin.
 [^inline-margin]: when using margin in inline elements you cannot use *width, height and margin-top, margin-bottom*. To solve height problem we can use *line-height*. To solve all this problem we can use *display: inline-block*.
 [^margin]: inline and block element have margin from 3px-5px. To eliminate this we can use *margin-left and margin-right from -3px to -5px*.
