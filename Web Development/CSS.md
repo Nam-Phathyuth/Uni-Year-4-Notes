@@ -204,6 +204,17 @@ ul {
 	- *border-collapse: collapse*​
 	- *:nth-child*(លេខរាង)​ ជ្រើសយកកូនធាតុទី n។
 	- *:hover*
+```css
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+tr:nth-child(2n+1){
+	background-color: grey;
+}
+```
+
 *block element បានកំណត់ width ហើយកាលណាដាក់ margin-left ​និង margin-right ទៅតម្លៃ auto​​ ធាតុនោះនឺងស្ថិតនៅកណ្តាល។*   
 
 
