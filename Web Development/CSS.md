@@ -185,6 +185,30 @@ div > a:hover{
 .....
 }
 ```
+
+23-10-2023  
+- រចនាបញ្ជី 
+	- *list-style-type* ប្រភេទក្បាច់បញ្ជីកំណត់លេខឬអក្សររាងគ្នាបង្ហាញមុខទិន្ន័យត្រូវវាយឬរូបតំណាងតូចដែលត្រូវបង្ហាញមុខទិន្ន័យត្រូវវាយ។
+	- *list-style-position* ទីតាំងក្បាលបញ្ជីកំណត់ក្បាច់បញ្ជី(outside)នៅខាងក្រៅឬនៅខាងក្នុង(inside)។
+	- *list-style-image* រូបភាពក្បាច់បញ្ជី​​ *list-style-image: url*។   
+```css
+ul {
+	list-style-type: lower-alpha;
+	list-style-image: image.jpg;
+	list-style-position: inside;
+}
+```
+
+- រចនាតារាង
+	- *border* រចនាស៊ុមនៃ table,​ th, td។
+	- *border-collapse: collapse*​
+	- *:nth-child*(លេខរាង)​ ជ្រើសយកកូនធាតុទី n។
+	- *:hover*
+*block element បានកំណត់ width ហើយកាលណាដាក់ margin-left ​និង margin-right ទៅតម្លៃ auto​​ ធាតុនោះនឺងស្ថិតនៅកណ្តាល។*   
+
+
+
+
 [^block-margin]: when using margin in two block elements that touch each other it will not sum up both margin instead it will take the biggest margin.
 [^inline-margin]: when using margin in inline elements you cannot use *width, height and margin-top, margin-bottom*. To solve height problem we can use *line-height*. To solve all this problem we can use *display: inline-block*.
 [^margin]: inline and block element have margin from 3px-5px. To eliminate this we can use *margin-left and margin-right from -3px to -5px*.
