@@ -172,7 +172,7 @@ To link a .css file to html:
 ```
 
 - *child combinator or child selector* ជ្រើសយកកូនធាតុដោយប្រើសញ្ញា >។​​ របៀបសរសេរ មេធាតុ > កូនធាតុ
-- *descendant combinator or descendant selector* ជ្រើសយកធាតុជំនាន់ក្រោយដោយប្រើសញ្ញា >។ របៀបសរសេរ មេធាតុ > កូនធាតុ។
+- *descendant combinator or descendant selector* ជ្រើសយកធាតុជំនាន់ក្រោយដោយប្រើសញ្ញា - ។
 - *pseudo-class selector* ជា selector ដែលផ្តើមដោយសញ្ញា : មាន
 	- *:link*
 	- *:visited*
