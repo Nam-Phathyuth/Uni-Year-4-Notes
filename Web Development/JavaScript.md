@@ -28,3 +28,23 @@ Dynamic web pages ឬ Dynamic web site វាអាចផ្លាស់ប្�
 ```js
 window.alert("Message");
 ```
+
+06-11-2023  
+អថេរឬអញ្ញាត variable ជាឈ្មោះបង្កើតឡើងសម្រាប់ផ្ទុកទិន្ន័យត្រូវប្រើបណ្តោះអាសន្ន។  
+ឈ្មោះអថេរត្រូវផ្តើមដោយអក្សរនិងត្រូវមានន័យដូចតាមទិន្ន័យត្រូវផ្ទុកព្រមទាំងមិនមានសញ្ញាមួយចំនួនដូចជា ដកឃ្លា, $, #​។ល។  
+របៀបបង្កើត  
+```js
+var varName = "value";
+let varName = "value";
+```
+
+*document object = Html document(web page)*  
+
+- *document.getElementById(id)* ជ្រើសយកធាតុដែលស្គាល់ Id។
+- *document.getElementByTagName(name)* ជ្រើសយកធាតុមួយប្រភេទដោយសរសេរឈ្មោះដូចជា *span, a*។
+- *document.getElementByClassName(className)* ជ្រើសយកធាតុមួយឬច្រើនដែលថិតក្នុងថ្នាក់បានបញ្ញាក់។​​
+
+ក្រោយពេលជ្រើសបានធាតុដោយប្រើ *getElementById, getElementByTagName, getElementByClassName* នោះអាចផ្លាស់ប្តូធាតុដោយប្រើ *properties* ឬ *method* ដូចខាងក្រោម  
+- element.textContent = ខ្លឹមសារ សម្រាប់ប្តូរខ្លឹមសារថិតនៅចន្លោះស្លាកផ្តើមនិងស្លាកបញ្ចប់នៃធាតុ។
+- element.attribute = តម្លៃ សម្រាប់ប្តូរតម្លៃគុណលក្ខណនៃធាតុ។
+- element.style.property = តម្លៃ សម្រាប់ប្តូរតម្លៃនៃការរចនានៃលក្ខណនៃការរចនាដែលប្រៀបដូចទៅនឹង property value ក្នុង css។
