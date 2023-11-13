@@ -48,7 +48,7 @@ let varName = "value";
 - element.textContent = ខ្លឹមសារ សម្រាប់ប្តូរខ្លឹមសារថិតនៅចន្លោះស្លាកផ្តើមនិងស្លាកបញ្ចប់នៃធាតុ។
 - element.attribute = តម្លៃ សម្រាប់ប្តូរតម្លៃគុណលក្ខណនៃធាតុ។
 - element.style.property = តម្លៃ សម្រាប់ប្តូរតម្លៃនៃការរចនានៃលក្ខណនៃការរចនាដែលប្រៀបដូចទៅនឹង property value ក្នុង css។  
-Note: *all name in javascript that is capitalized are object.*
+Note: *all name in javascript that is capitalized are object.*  
 10-11-2023  
 ## Array
 **Array** ជា *variable* ដែលផ្ទុកតម្លៃបានច្រើនដែលមានប្រភេទដូចគ្នា។
@@ -57,4 +57,13 @@ Note: *all name in javascript that is capitalized are object.*
 const array_name = [1,2,3,4];
 const array_name = new Array(1,2,3,4);
 ```
-- *length* ជា property​​ នៃ array​ ដែលប្រាប់ប្រវែង array​ ឬចំនួនដែល array មាន។
+- *length* ជា property​​ នៃ array​ ដែលប្រាប់ប្រវែង array​ ឬចំនួនដែល array មាន។  
+
+- JavaScript object
+	- Math ជា object បំពេញមុខងារគណិតវិទ្យាដូចជា លេខចៃដន្យ បង្កត់លេខ​។ល។
+		- random() ជា method ​ដែលបំពេញមុខងារផ្តល់លេខទស្សភាគចន្លោះ០ទៅ១។[^random]
+		- floor(លេខទស្សភាគ) បង្គត់ចុះនូវលេខទស្សភាគ។
+		- ceil(លេខទស្សភាគ) បង្គត់ឡើងនូវលេខទស្សភាគ។
+		- round(លេខទស្សភាគ) បង្គត់ចុះឡើងនូវលេខទស្សភាគអាស្រ័យទៅលើលេខទស្សភាគតូចជាង៥ឬធំជាង៥ឬស្មើរ៥។
+
+[^random]:បង្កើតលេខចៃដន្យ​​​ Math.floor(Math.random() * (max - min) * min) or Math.floor(Math.random() * (max - min * 1) * min)
