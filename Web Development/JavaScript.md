@@ -47,4 +47,14 @@ let varName = "value";
 ក្រោយពេលជ្រើសបានធាតុដោយប្រើ *getElementById, getElementByTagName, getElementByClassName* នោះអាចផ្លាស់ប្តូធាតុដោយប្រើ *properties* ឬ *method* ដូចខាងក្រោម  
 - element.textContent = ខ្លឹមសារ សម្រាប់ប្តូរខ្លឹមសារថិតនៅចន្លោះស្លាកផ្តើមនិងស្លាកបញ្ចប់នៃធាតុ។
 - element.attribute = តម្លៃ សម្រាប់ប្តូរតម្លៃគុណលក្ខណនៃធាតុ។
-- element.style.property = តម្លៃ សម្រាប់ប្តូរតម្លៃនៃការរចនានៃលក្ខណនៃការរចនាដែលប្រៀបដូចទៅនឹង property value ក្នុង css។
+- element.style.property = តម្លៃ សម្រាប់ប្តូរតម្លៃនៃការរចនានៃលក្ខណនៃការរចនាដែលប្រៀបដូចទៅនឹង property value ក្នុង css។  
+Note: *all name in javascript that is capitalized are object.*
+10-11-2023  
+## Array
+**Array** ជា *variable* ដែលផ្ទុកតម្លៃបានច្រើនដែលមានប្រភេទដូចគ្នា។
+- របៀបបង្កើត array
+```js
+const array_name = [1,2,3,4];
+const array_name = new Array(1,2,3,4);
+```
+- *length* ជា property​​ នៃ array​ ដែលប្រាប់ប្រវែង array​ ឬចំនួនដែល array មាន។
