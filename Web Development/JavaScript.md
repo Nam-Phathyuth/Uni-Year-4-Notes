@@ -66,4 +66,16 @@ const array_name = new Array(1,2,3,4);
 		- ceil(លេខទស្សភាគ) បង្គត់ឡើងនូវលេខទស្សភាគ។
 		- round(លេខទស្សភាគ) បង្គត់ចុះឡើងនូវលេខទស្សភាគអាស្រ័យទៅលើលេខទស្សភាគតូចជាង៥ឬធំជាង៥ឬស្មើរ៥។
 
+17-11-2023  
+- window object ជា object អាចអោយ javascript ប្រើមុខងារនានានៃ tab​ មួយរបស់ browser ដូចកំណត់ពេលអោយកិច្ចការដំណើរការ​ លុបចោលនូវពេលដែលកិច្ចការបានដំណើរការ។ល។
+- setInterval(កិច្ចការ, ពេលគិតជាមីលីវិនាទី) ជា method មានមិខងារធ្វើអោយកិច្ចការ(function) ដំណើរការសារចុះសារឡើងមិនកំណត់ចំនួនដង។
+- clearInterval(អាយឌីម្ចាស់ដំណើរការ) លុបចោលពេលធ្វើអោយកិច្ចការដំណើរការបានកំណត់ដោយ setInterval។
+
+## Event in javaScript
+
+របៀបទិ១
+- ធាតុបានជ្រើសរើស addEventListener("ឈ្មោះevent", ឈ្មោះfunction);
+របៀនទី២
+- ធាតុបានជ្រើសរើស.onឈ្មោះevent = ឈ្មោះfunction;
+ឈ្មោះ event ប្រើប្រាស់ញឹកញាប់មាន click, change, focus, blur ។ល។
 [^random]:បង្កើតលេខចៃដន្យ​​​ Math.floor(Math.random() * (max - min) * min) or Math.floor(Math.random() * (max - min * 1) * min)
