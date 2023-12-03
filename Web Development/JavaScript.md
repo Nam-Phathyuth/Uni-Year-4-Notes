@@ -71,6 +71,62 @@ const array_name = new Array(1,2,3,4);
 - setInterval(កិច្ចការ, ពេលគិតជាមីលីវិនាទី) ជា method មានមិខងារធ្វើអោយកិច្ចការ(function) ដំណើរការសារចុះសារឡើងមិនកំណត់ចំនួនដង។
 - clearInterval(អាយឌីម្ចាស់ដំណើរការ) លុបចោលពេលធ្វើអោយកិច្ចការដំណើរការបានកំណត់ដោយ setInterval។
 
+01-12-2023
+- ដូរការរចនា (dynamic style)
+```js
+selectedElement.style.propertyName = NewValue;
+```
+
+> ពេលសរសេរឈ្មោះ CSS property ក្នុង​ javascript មិនប្រើសញ្ញា - ទេរាល់អក្សរទិ១នៃពាក្យត្រូវដូរទៅអក្សរធំដោយគិតចាប់ពីពាក្យទី២ឡើងទៅដូចជា background-color សរសេរជា backgroundColor វិញ។
+
+### Javascript selector
+- ជ្រើសរើសធាតុមួយ​
+```js
+document.querySelector("CSS selector");
+```
+
+- ជ្រើសរើសធាតុច្រើន
+```js
+document.querySelectorAll("CSS selector");
+```
+
+>រាល់ CSS selector អាចប្រើក្នុង JavaScript បានដូចជា #id, .class ។ល។
+
+- បង្កើតធាតុ
+```js
+document.createElement("ធាតុត្រូវបង្កើត");
+```
+
+- បង្កើតខ្លឹមសារ
+```js
+document.createTextNode("ខ្លឹមសារ");
+```
+
+- ថែមខ្លឹមសារចូលក្នុងធាតុ
+```js
+ធាតុ.appendChild(ខ្លឹមសារ);
+```
+
+- ថែមធាតុចូលក្នុង webpage
+```js
+មេធាតុ.appendChild(កូនធាតុ);
+```
+
+- បង្កើតគុណលក្ខណ
+```js
+document.createAttrubute("attributeName");
+```
+
+- កំណត់តម្លៃអោយគុណលក្ខណ
+```js
+attribute.value = "value";
+```
+
+- ថែមគុណលក្ខណអោយធាតុ
+```js
+ធាតុ.setAttributeNode(attribute);
+```
+
 ## Event in javaScript
 
 របៀបទិ១
