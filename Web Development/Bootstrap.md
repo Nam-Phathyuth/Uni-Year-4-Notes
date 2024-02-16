@@ -74,3 +74,15 @@ example: អោយរូបភាពនៅចំកណ្តាល
 >text-center អត្ថបទនៅចំកណ្តាល(text-align:center)
 >fw-bold អក្សរក្រាស់ដិតច្បាស់(font-wieght:bold)
 
+26-01-2024  
+
+class ប្រើនឹង form controls ឬ form field ក្នុង Bootstrap form
+- w-ភាគរយមានតម្លៃ 25 50 75 100 សម្រាប់កំណត់ទទឹង block element
+- row សម្រាប់ div ជាមេនឹង col សម្រាប់ form control ឬ form field ដើម្បីអោយវាជា inline
+- form-control សម្រាប់ text box, password, text area 
+- form-label សម្រាប់ label
+- form-check សម្រាប់ div ជាមេរបស់ check box ឬ radio និងថែម form-check-inline ដើប្បីអោយវាប្រែជា inline
+- form-check-input សម្រាប់ check box, radio
+- form-check-label សម្រាប់ label របស់ check box, radio
+- row សម្រាប់ div ជាមេនិង col form-select សម្រាប់ list box ឬ drop down list (combo box)។
+- btn btn-ឈ្មោះព៏ណក្នុង bootstrap សម្រាប់ ប៊ុតុង។
