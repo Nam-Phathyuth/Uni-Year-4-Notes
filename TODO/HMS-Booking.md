@@ -1,0 +1,8 @@
+- check-inn OK
+- check-out OK
+- cancel booking OK
+- payment 
+- add username, room type filter to get booking
+- get booking by user id
+- add pagination to getBookingDetail
+- include booking detail and payment in getBookingById ok
